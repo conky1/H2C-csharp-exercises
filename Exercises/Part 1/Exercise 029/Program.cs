@@ -17,6 +17,10 @@ namespace exercise_29
             Console.WriteLine("Larger number is: " + num2);
      
                     }
+      else if(num1 == num2){
+            Console.WriteLine("They are equal!");
+            
+            }
       else{
             Console.WriteLine("Larger number is: " + num1);
             }
