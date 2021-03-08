@@ -16,8 +16,11 @@ namespace exercise_22
         double num2 = Convert.ToDouble(Console.ReadLine());
         Console.Write("Give second number: ");
         double num3 = Convert.ToDouble(Console.ReadLine());
-        Console.WriteLine("The average is: " + (num1 + num2 + num3)/3);
+        double average = ((num1 + num2 + num3) / 3);
+        Console.WriteLine("The average is: " + average);
         Console.ReadLine();
+
+        
     }
   }
 }
