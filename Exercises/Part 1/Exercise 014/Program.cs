@@ -6,7 +6,20 @@ namespace exercise_14
   {
     public static void Main(string[] args)
     {
-      Console.WriteLine("Give me the truth!");
+      
+     
+            string truth = "tRuE";
+            bool boolValue = Convert.ToBoolean(truth);
+            Console.Write("Give me the truth: ");
+            string answer = Console.ReadLine();
+            if (answer != "tRuE"){
+                Console.WriteLine(false);
+                Console.ReadLine();
+            } 
+              else{
+            Console.WriteLine(true);
+            }
+            Console.ReadLine();
       // Write your code here:
 
     }
