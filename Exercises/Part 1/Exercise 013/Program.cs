@@ -6,7 +6,12 @@ namespace exercise_13
   {
     public static void Main(string[] args)
     {
-      // Write your code here:
+       Console.Write("Give a decimal number: ");
+        string input = Console.ReadLine();
+        double num = Convert.ToDouble(input);
+        Console.WriteLine("You gave decimal number: " + num);
+        Console.ReadLine();
+
 
     }
   }
