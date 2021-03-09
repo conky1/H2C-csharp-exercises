@@ -10,7 +10,7 @@ namespace exercise_32
         Console.Write("Speak friend and enter: \n");
         string pass = Console.ReadLine();
          
-        if(pass != "Mellon"){
+        if(pass.ToUpper() != "MELLON"){
             Console.WriteLine("They've got a cave troll!");
 
             }
